@@ -77,6 +77,12 @@ p{
     background-color: #3ea38d;
     margin-bottom: 100px;
 }
+#aboutMe:hover{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-width: 4px;
+    box-shadow: 5px 10px #44484f;
+}
 #projects{
     color:white;
     border-style: solid;
@@ -88,4 +94,17 @@ p{
     border-radius: 15px;
     background-color: #3ea38d;
     margin-bottom: 100px;
+}
+#projects:hover{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-width: 4px;
+    box-shadow: 5px 10px #44484f;
+}
+}
+#gitHub{
+   text-decoration: underline; 
+}
+#contacts{
+    text-align: center;
 }
