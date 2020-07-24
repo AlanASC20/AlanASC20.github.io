@@ -3,6 +3,7 @@ body{
 }
 li{
     list-style-type: none;
+    font-family: 'Varta', sans-serif;
 
     margin: 0 2vw;
     font-size: 3vh;
