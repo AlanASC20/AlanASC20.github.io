@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color:#53c9b0;
 }
@@ -13,12 +16,18 @@ a{
 
     color:black;
     padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 a:hover{
     background-color: #C6E9FF;
 }
 .contactInfo{
     font-family:'Varta', sans-serif;
+    font-size: 20px;
+    color:white;
 }
 .contactInfo:hover{
     padding:5px;
@@ -28,6 +37,12 @@ nav{
     width: 100vw;
     background-color: #D6EFFF;
     padding: 10px;
+    position: fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 ul{
     margin: 0;
@@ -59,12 +74,44 @@ h1{
     text-align: center;
     color: white;
 }
+h1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-right: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-right: 0%;
+      width: 100%;
+    }
+  }
 h2{
     font-family: 'Oswald', sans-serif;
     color:white;
     text-align: center;
     margin-bottom:300px;
 }
+h2 {
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 header{
     font-family: 'Varta', sans-serif;
     font-size: 30px;
@@ -74,57 +121,53 @@ p{
     font-size: 20px;
 }
 #aboutMe{
-    color: white;
-    border-style: solid;
-    border-color: black;
-    border-width: 0.5 px;
-    margin-left: 30px;
-    margin-right: 30px;
+    color: #0a1d57;
     padding: 15px;
-    border-radius: 15px;
-    background-color: #3ea38d;
-    margin-bottom: 100px;
-}
-#aboutMe:hover{
-    margin-left: 10px;
-    margin-right: 10px;
-    border-width: 4px;
-    box-shadow: 5px 10px #44484f;
+    background-color: #f5cd7d;
+    padding-bottom: 50px;
 }
 #projects{
     color:white;
-    border-style: solid;
-    border-color: black;
-    border-width: 0.5 px;
-    margin-left: 30px;
-    margin-right: 30px;
     padding: 15px;
-    border-radius: 15px;
-    background-color: #3ea38d;
-    margin-bottom: 100px;
-}
-#projects:hover{
-    margin-left: 10px;
-    margin-right: 10px;
-    border-width: 4px;
-    box-shadow: 5px 10px #44484f;
+    background-color: #ff3838;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 #gitHub{
    text-decoration: underline; 
 }
 #contacts{
     text-align: center;
+    margin-top: 120px;
+    background-color: #3b3b3b;
+    color:white;
+    padding-bottom: 150px;
+    padding-top: 150px;
 }
 #skills{
+    font-size: 50px;
     text-align: center;
     color: white;
-    border-style: solid;
-    border-color: black;
-    border-width: 0.5 px;
     margin-left: 30px;
     margin-right: 30px;
-    padding: 15px;
-    border-radius: 15px;
-    background-color: #3ea38d;
+    padding: 60px;
+    background-color: #53c9b0;
     margin-bottom: 100px;
+    padding-top: 100px;
 }
+img{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 15px;
+    border-color: black;
+    box-shadow: 10px 10px 5px black;
+}
+#contact{
+    padding-bottom: 50px;
+}
+
