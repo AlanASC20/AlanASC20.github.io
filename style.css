@@ -61,10 +61,13 @@ body{
 
     li{
         margin:0;
+
     }
 
     a{
         display:block;
+        padding-top: 1px;
+        padding-bottom: 1px;
     }
 }
 h1{
